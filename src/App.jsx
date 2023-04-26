@@ -6,6 +6,15 @@ import Nav from './Nav'
 import Profile from './Profile'
 function App() {
 
+  const profilesJsx = data.map(item => {
+    return <Profile 
+
+
+    />
+  })
+
+
+
   return (
       <div className='container'>
         <Nav />
@@ -17,6 +26,9 @@ function App() {
 }
 
 export default App
+
+
+
 
 {
   <div className="profile">
