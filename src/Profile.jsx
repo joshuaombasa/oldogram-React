@@ -1,6 +1,8 @@
 import React from "react";
 
-export default function Profile() {
+export default function Profile(props) {
+console.log(props)
+
     return (
         <div className="profile">
             <div className="profile--header">
@@ -22,3 +24,4 @@ export default function Profile() {
 
     )
 }
+
