@@ -10,14 +10,6 @@ function App() {
     return <Profile
     key={item.username}
     item={{...item}}
-    
-      // name={item.name}
-      // username={item.username}
-      // location={item.location}
-      // avatar={item.avatar}
-      // post={item.post}
-      // comment={item.comment}
-      // likes={item.likes}
     />
   })
 
