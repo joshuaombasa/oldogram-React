@@ -18,14 +18,11 @@ function App() {
     />
   })
 
-console.log(profilesJsx)
 
   return (
     <div className='container'>
       <Nav />
-      <Profile />
-      <Profile />
-      <Profile />
+      {profilesJsx}
     </div>
   )
 }
