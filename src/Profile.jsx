@@ -8,7 +8,7 @@ export default function Profile(props) {
             <div className="profile--header">
                 <img src={props.avatar} alt="" className="profile--pic" />
                 <div className="profile-data">
-                    <p className="user--name">{props.name}</p>
+                    <p className="user--name"><strong>{props.name}</strong></p>
                     <p className="location">{props.location}</p>
                 </div>
             </div>
@@ -19,7 +19,7 @@ export default function Profile(props) {
                 <img src="../public/images/icon-dm.png" alt="" className="icons" />
             </div>
             <p className="likes">{props.likes} likes</p>
-            <p className="comment">{props.comment}</p>
+            <p className="comment"><strong>{props.username}</strong>  {props.comment}</p>
         </div>
 
     )
