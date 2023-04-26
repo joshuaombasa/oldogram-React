@@ -8,14 +8,13 @@ function App() {
 
   const profilesJsx = data.map(item => {
     return <Profile 
-    name: "Vincent van Gogh",
-    username: "vincey1853",
-    location: "Zundert, Netherlands",
-    avatar: "../public/images/avatar-vangogh.jpg",
-    post: "../public/images/post-vangogh.jpg",
-    comment: "just took a few mushrooms lol",
-    likes: 21
-
+    name= "Vincent van Gogh"
+    username= "vincey1853"
+    location= "Zundert, Netherlands"
+    avatar= "../public/images/avatar-vangogh.jpg"
+    post= "../public/images/post-vangogh.jpg"
+    comment= {item.comment}
+    likes= {item.likes}
     />
   })
 
