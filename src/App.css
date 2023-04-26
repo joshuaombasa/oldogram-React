@@ -36,13 +36,15 @@ nav {
 
 .profile-data p {
   margin: 0;
-  font-size: 30px;
   padding: 8px;
+}
+.user--name {
+  font-size: 30px;
 }
 
 .location {
   color: rgb(87, 82, 82);
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .socials {
