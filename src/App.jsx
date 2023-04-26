@@ -18,7 +18,7 @@ function App() {
     />
   })
 
-
+console.log(profilesJsx)
 
   return (
     <div className='container'>
