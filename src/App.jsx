@@ -11,8 +11,8 @@ function App() {
     name= "Vincent van Gogh"
     username= "vincey1853"
     location= "Zundert, Netherlands"
-    avatar= "../public/images/avatar-vangogh.jpg"
-    post= "../public/images/post-vangogh.jpg"
+    avatar= {item.avatar}
+    post= {item.post}
     comment= {item.comment}
     likes= {item.likes}
     />
