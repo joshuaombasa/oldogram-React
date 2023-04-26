@@ -8,13 +8,14 @@ function App() {
 
   const profilesJsx = data.map(item => {
     return <Profile
-      name={item.name}
-      username={item.username}
-      location={item.location}
-      avatar={item.avatar}
-      post={item.post}
-      comment={item.comment}
-      likes={item.likes}
+    key={item.username}
+      // name={item.name}
+      // username={item.username}
+      // location={item.location}
+      // avatar={item.avatar}
+      // post={item.post}
+      // comment={item.comment}
+      // likes={item.likes}
     />
   })
 
